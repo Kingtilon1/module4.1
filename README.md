@@ -92,3 +92,5 @@ DROP TABLE user;
 
 //now the table is gone
 
+//To import csv use command *.import filename.csv tablename
+
