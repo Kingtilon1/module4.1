@@ -20,7 +20,7 @@ CREATE TABLE  user(id int(11) ,username varchar(25),passwd varchar(25),email var
 
 //Now that a table is created you can insert values *
 
-mysql> INSERT INTO user (2100, 'Kingty', 'theone8080', 'theone@ gmail.com');
+mysql> INSERT INTO user VALUES (2100, 'Kingty', 'theone8080', 'theone@ gmail.com');
 
 //to view you table so far you type the command  SELECT * FROM user; and this is the output
 
